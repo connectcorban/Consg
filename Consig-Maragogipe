@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#3b075f">
+<meta name="description" content="Consignado para servidores de Maragogipe/BA. Consulte as condições com a Tá Fácil Consignados pelo WhatsApp.">
+<title>Tá Fácil Consignados | Maragogipe/BA</title>
+<style>
+:root{--p:#3b075f;--pd:#24003e;--o:#ff510d;--g:#16a34a;--ink:#251638;--muted:#655c70;--cream:#fffaf5;--line:#eee5f3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}a{color:inherit}
+.top{background:var(--pd);color:#fff;text-align:center;padding:9px 14px;font-size:.88rem}
+header{position:sticky;top:0;z-index:5;background:#ffffffed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+nav,.wrap{width:min(1120px,calc(100% - 36px));margin:auto}nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{text-decoration:none;line-height:1}.logo{font-size:2.45rem;font-weight:950;font-style:italic;letter-spacing:-.09em;color:var(--o)}.sub{display:block;color:var(--p);font-weight:800;font-style:italic;text-align:right}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:999px;padding:14px 21px;min-height:48px;font-weight:850;text-decoration:none;cursor:pointer;transition:.18s}
+.btn:hover{transform:translateY(-2px)}.green{background:var(--g);color:#fff;box-shadow:0 8px 22px #16a34a30}.orange{background:var(--o);color:#fff}.outline{background:#fff;border:1px solid #d9c8e4;color:var(--p)}
+.hero{background:radial-gradient(circle at 88% 10%,#ff7a2030,transparent 28%),linear-gradient(135deg,#fff,#fff8f0 60%,#f7edff)}
+.hero-grid{width:min(1120px,calc(100% - 36px));margin:auto;padding:60px 0;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:54px}
+.pill{display:inline-block;background:#f2e7fb;color:var(--p);border-radius:99px;padding:7px 12px;font-size:.82rem;font-weight:850;letter-spacing:.04em}
+h1{font-size:clamp(2.6rem,5.3vw,4.5rem);letter-spacing:-.065em;line-height:.99;margin:20px 0}h1 em{font-style:normal;color:var(--o)}
+.lead{font-size:1.15rem;color:#554961;max-width:580px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0 15px}.note{font-size:.83rem;color:var(--muted)}
+.art{background:white;border:7px solid white;border-radius:24px;overflow:hidden;box-shadow:0 18px 55px #31064d20;transform:rotate(1deg)}.art img{display:block;width:100%;height:auto}
+section{padding:66px 0}.heading{text-align:center;max-width:720px;margin:0 auto 32px}.heading h2{font-size:clamp(1.9rem,3.5vw,2.7rem);line-height:1.1;letter-spacing:-.04em;margin:0 0 12px}.heading p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}.ico{width:46px;height:46px;border-radius:14px;background:var(--p);color:#fff;display:grid;place-items:center;font-size:1.4rem;font-weight:900;margin-bottom:14px}.card:nth-child(even) .ico{background:var(--o)}.card h3{margin:0 0 7px}.card p{color:var(--muted);font-size:.93rem;margin:0}
+.soft{background:#f5edf9}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{background:#fff;border:1px solid #e9dcef;border-radius:18px;padding:24px}.num{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--o);color:white;font-weight:900;margin-bottom:12px}.step h3{margin:0 0 7px}.step p{color:var(--muted);margin:0}
+.cta{background:linear-gradient(110deg,var(--pd),var(--p),#581081);color:#fff;border-radius:26px;padding:clamp(28px,5vw,48px);display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:clamp(1.8rem,3.5vw,2.6rem);line-height:1.1;margin:0 0 10px}.cta p{color:#eee1f7;margin:0;max-width:620px}
+.faq{max-width:850px;margin:auto}details{background:#fff;border:1px solid var(--line);border-radius:13px;padding:17px 20px;margin:10px 0}summary{cursor:pointer;font-weight:800;color:var(--p)}details p{color:var(--muted);margin-bottom:0}
+footer{background:#1f0731;color:#fff;padding:32px 0}.foot{display:flex;justify-content:space-between;gap:26px;flex-wrap:wrap}.foot p{color:#e2d5ea;font-size:.86rem;max-width:730px}.float{position:fixed;right:18px;bottom:18px;z-index:10;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--g);color:white;border:3px solid white;text-decoration:none;font-size:1.65rem;box-shadow:0 8px 25px #0003}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr;padding:42px 0;gap:30px}.art{max-width:650px;margin:auto;transform:none}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.cta{align-items:flex-start;flex-direction:column}}
+@media(max-width:520px){nav,.wrap,.hero-grid{width:calc(100% - 28px)}nav{min-height:68px}.logo{font-size:2rem}nav .btn{font-size:.82rem;padding:10px 13px}.hero-grid{padding:34px 0}h1{font-size:clamp(2.4rem,12vw,3.4rem)}section{padding:46px 0}.cards{gap:10px}.card{padding:15px}.card h3{font-size:.97rem}.card p{font-size:.86rem}.actions .btn{width:100%}.foot{width:calc(100% - 28px)}}
+</style>
+</head>
+<body>
+<div class="top">Atendimento para servidores de Maragogipe/BA • Consulte as condições pelo WhatsApp</div>
+<header><nav aria-label="Navegação principal">
+<a class="brand" href="#inicio"><span class="logo">tá fácil</span><span class="sub">Consignados</span></a>
+<a class="btn green wa" href="https://wa.me/5571981377358">Falar no WhatsApp ↗</a>
+</nav></header>
+<main>
+<section class="hero" id="inicio"><div class="hero-grid">
+<div><span class="pill">📍 MARAGOGIPE • BAHIA</span>
+<h1>Servidor de Maragogipe? <em>Consulte seu consignado.</em></h1>
+<p class="lead">O crédito que você precisa começa com informação clara. Converse com a Tá Fácil Consignados, conheça as condições disponíveis e tire suas dúvidas com atendimento personalizado.</p>
+<div class="actions"><a class="btn green wa" href="https://wa.me/5571981377358?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20consignado.">◉ Consultar pelo WhatsApp</a><a class="btn outline" href="#como-funciona">Como funciona</a></div>
+<p class="note">A contratação está sujeita à análise, elegibilidade e às condições da instituição financeira. Consulte taxas, prazo, CET e valor total antes de contratar.</p>
+</div>
+<div class="art"><img src="assets/panfleto-tafacil.png" alt="Panfleto Tá Fácil Consignados para servidores de Maragogipe/BA" onerror="this.parentElement.innerHTML='<div style=&quot;padding:48px;text-align:center;color:#3b075f&quot;><h2>tá fácil Consignados</h2><p>Servidor de Maragogipe/BA</p><a class=&quot;btn green wa&quot; href=&quot;https://wa.me/5571981377358&quot;>Falar no WhatsApp</a></div>'"></div>
+</div></section>
+<section id="vantagens"><div class="wrap"><div class="heading"><h2>Informação e atendimento do seu jeito</h2><p>Converse com nossa equipe para entender as opções e verificar se existe uma condição adequada ao seu perfil.</p></div>
+<div class="cards">
+<article class="card"><div class="ico">↗</div><h3>Consulta rápida</h3><p>Comece a conversa pelo WhatsApp e tire suas dúvidas.</p></article>
+<article class="card"><div class="ico">%</div><h3>Condições claras</h3><p>Peça informações sobre taxas, prazo e custos antes de decidir.</p></article>
+<article class="card"><div class="ico">▦</div><h3>Parcelas planejadas</h3><p>Confira valores e prazos disponíveis para sua situação.</p></article>
+<article class="card"><div class="ico">♡</div><h3>Atendimento humano</h3><p>Receba orientação durante a consulta, sem compromisso de contratar.</p></article>
+</div></div></section>
+<section class="soft" id="como-funciona"><div class="wrap"><div class="heading"><h2>É simples começar</h2><p>Peça informações e avalie as condições com calma antes de tomar uma decisão.</p></div>
+<div class="steps"><article class="step"><span class="num">1</span><h3>Chame no WhatsApp</h3><p>Clique em qualquer botão desta página para iniciar a conversa.</p></article><article class="step"><span class="num">2</span><h3>Consulte as opções</h3><p>Peça informações sobre crédito consignado para servidores.</p></article><article class="step"><span class="num">3</span><h3>Avalie antes de contratar</h3><p>Confira parcela, prazo, taxa de juros, CET e total a receber.</p></article></div>
+</div></section>
+<section><div class="wrap"><div class="cta"><div><h2>Quer saber quais condições estão disponíveis?</h2><p>Fale com a Tá Fácil Consignados pelo WhatsApp. A consulta não obriga você a contratar.</p></div><a class="btn orange wa" href="https://wa.me/5571981377358?text=Ol%C3%A1%2C%20quero%20consultar%20as%20condi%C3%A7%C3%B5es%20do%20consignado.">Conversar agora ↗</a></div></div></section>
+<section><div class="wrap"><div class="heading"><h2>Dúvidas frequentes</h2><p>Antes de contratar qualquer crédito, entenda todos os valores e condições.</p></div><div class="faq">
+<details><summary>A consulta me obriga a contratar?</summary><p>Não. Você pode solicitar informações e avaliar as condições antes de decidir.</p></details>
+<details><summary>Todo servidor tem aprovação garantida?</summary><p>Não. A elegibilidade e a aprovação dependem das regras aplicáveis e da análise da instituição financeira.</p></details>
+<details><summary>O que devo conferir antes de contratar?</summary><p>Confira taxa de juros, Custo Efetivo Total (CET), parcelas, prazo, e contrato.</p></details>
+<details><summary>Como falo com a Tá Fácil?</summary><p>Clique em qualquer botão de WhatsApp desta página para iniciar uma conversa.</p></details>
+</div></div></section>
+</main>
+<footer><div class="wrap foot"><div><div class="logo" style="color:#ff6a25">tá fácil</div><div class="sub" style="color:#fff;text-align:left">Consignados</div><p>Atendimento para Maragogipe/BA</p></div><div><p><strong>Importante:</strong> esta página não promete aprovação, liberação imediata ou taxa específica. Crédito sujeito à análise, elegibilidade e regras da instituição financeira.</p><p>Consulte já.</p><p>© <span id="year"></span> Tá Fácil Consignados.</p></div></div></footer>
+<a class="float wa" href="https://wa.me/5571981377358?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20consignado." aria-label="Falar pelo WhatsApp" target="_blank" rel="noopener">◉</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const wa='https://wa.me/5571981377358?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20consignado.';
+document.querySelectorAll('.wa').forEach(a=>{a.href=wa;a.target='_blank';a.rel='noopener';});
+</script>
+</body></html>
