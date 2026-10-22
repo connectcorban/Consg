@@ -49,22 +49,22 @@ footer{background:#1f0731;color:#fff;padding:32px 0}.foot{display:flex;justify-c
 <section id="vantagens"><div class="wrap"><div class="heading"><h2>Informação e atendimento do seu jeito</h2><p>Converse com nossa equipe para entender as opções e verificar se existe uma condição adequada ao seu perfil.</p></div>
 <div class="cards">
 <article class="card"><div class="ico">↗</div><h3>Consulta rápida</h3><p>Comece a conversa pelo WhatsApp e tire suas dúvidas.</p></article>
-<article class="card"><div class="ico">%</div><h3>Condições claras</h3><p>Peça informações sobre taxas, prazo e custos antes de decidir.</p></article>
+<article class="card"><div class="ico">%</div><h3>Condições claras</h3><p>Peça informações sobre taxas, prazo e custo total antes de decidir.</p></article>
 <article class="card"><div class="ico">▦</div><h3>Parcelas planejadas</h3><p>Confira valores e prazos disponíveis para sua situação.</p></article>
 <article class="card"><div class="ico">♡</div><h3>Atendimento humano</h3><p>Receba orientação durante a consulta, sem compromisso de contratar.</p></article>
 </div></div></section>
 <section class="soft" id="como-funciona"><div class="wrap"><div class="heading"><h2>É simples começar</h2><p>Peça informações e avalie as condições com calma antes de tomar uma decisão.</p></div>
-<div class="steps"><article class="step"><span class="num">1</span><h3>Chame no WhatsApp</h3><p>Clique em qualquer botão desta página para iniciar a conversa.</p></article><article class="step"><span class="num">2</span><h3>Consulte as opções</h3><p>Peça informações sobre crédito consignado para servidores.</p></article><article class="step"><span class="num">3</span><h3>Avalie antes de contratar</h3><p>Confira parcela, prazo, taxa de juros, CET e total a receber.</p></article></div>
+<div class="steps"><article class="step"><span class="num">1</span><h3>Chame no WhatsApp</h3><p>Clique em qualquer botão desta página para iniciar a conversa.</p></article><article class="step"><span class="num">2</span><h3>Consulte as opções</h3><p>Peça informações sobre crédito consignado para servidores.</p></article><article class="step"><span class="num">3</span><h3>Avalie antes de contratar</h3><p>Confira parcela, prazo, taxa de juros, CET e total a pagar.</p></article></div>
 </div></section>
 <section><div class="wrap"><div class="cta"><div><h2>Quer saber quais condições estão disponíveis?</h2><p>Fale com a Tá Fácil Consignados pelo WhatsApp. A consulta não obriga você a contratar.</p></div><a class="btn orange wa" href="https://wa.me/5571981377358?text=Ol%C3%A1%2C%20quero%20consultar%20as%20condi%C3%A7%C3%B5es%20do%20consignado.">Conversar agora ↗</a></div></div></section>
 <section><div class="wrap"><div class="heading"><h2>Dúvidas frequentes</h2><p>Antes de contratar qualquer crédito, entenda todos os valores e condições.</p></div><div class="faq">
 <details><summary>A consulta me obriga a contratar?</summary><p>Não. Você pode solicitar informações e avaliar as condições antes de decidir.</p></details>
 <details><summary>Todo servidor tem aprovação garantida?</summary><p>Não. A elegibilidade e a aprovação dependem das regras aplicáveis e da análise da instituição financeira.</p></details>
-<details><summary>O que devo conferir antes de contratar?</summary><p>Confira taxa de juros, Custo Efetivo Total (CET), parcelas, prazo, e contrato.</p></details>
+<details><summary>O que devo conferir antes de contratar?</summary><p>Confira taxa de juros, Custo Efetivo Total (CET), parcelas, prazo, total a pagar e contrato.</p></details>
 <details><summary>Como falo com a Tá Fácil?</summary><p>Clique em qualquer botão de WhatsApp desta página para iniciar uma conversa.</p></details>
 </div></div></section>
 </main>
-<footer><div class="wrap foot"><div><div class="logo" style="color:#ff6a25">tá fácil</div><div class="sub" style="color:#fff;text-align:left">Consignados</div><p>Atendimento para Maragogipe/BA</p></div><div><p><strong>Importante:</strong> esta página não promete aprovação, liberação imediata ou taxa específica. Crédito sujeito à análise, elegibilidade e regras da instituição financeira.</p><p>Consulte já.</p><p>© <span id="year"></span> Tá Fácil Consignados.</p></div></div></footer>
+<footer><div class="wrap foot"><div><div class="logo" style="color:#ff6a25">tá fácil</div><div class="sub" style="color:#fff;text-align:left">Consignados</div><p>Atendimento para Maragogipe/BA</p></div><div><p><strong>Importante:</strong> esta página não promete aprovação, liberação imediata ou taxa específica. Crédito sujeito à análise, elegibilidade e regras da instituição financeira.</p><p>Leia o contrato e confirme CET, taxas, prazo e valor total a pagar antes de contratar.</p><p>© <span id="year"></span> Tá Fácil Consignados.</p></div></div></footer>
 <a class="float wa" href="https://wa.me/5571981377358?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20consignado." aria-label="Falar pelo WhatsApp" target="_blank" rel="noopener">◉</a>
 <script>
 document.getElementById('year').textContent=new Date().getFullYear();
